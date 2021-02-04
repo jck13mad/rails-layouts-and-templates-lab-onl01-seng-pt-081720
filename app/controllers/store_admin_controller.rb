@@ -6,7 +6,7 @@ class StoreAdminController < ApplicationController
   end 
   
   def orders 
-    
+    redner: layout 
   end 
   
   
