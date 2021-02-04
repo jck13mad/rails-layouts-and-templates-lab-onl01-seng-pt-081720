@@ -6,8 +6,11 @@ class StoreAdminController < ApplicationController
   end 
   
   def orders 
-    redner :layout => "order_administration"
+    render :layout => "order_administration"
   end 
   
+  def invoice 
+    render:layout => ""
+  end 
   
 end 
